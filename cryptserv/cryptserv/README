@@ -1,0 +1,3 @@
+Usage: cryptserv KEY UNIX_SOCKET [UNIX_SOCKET ...]
+
+You can give any amount of Unix sockets simply by appending their path to the invocation of the program.
