@@ -1,0 +1,24 @@
+List the contents of a directory. Output is sorted alphabetically on filename
+by default. The following flags are supported:
+
+-a: (BONUS)
+    Shows all hidden files.
+-C: (BONUS)
+    Forces multi-column output, even if not outputting to a terminal.
+-l:
+    Uses long-list format.
+-R:
+    Recurses into directories.
+-t:
+    Sorts on last modification time.
+-S:
+    Sorts on file size.
+-f:
+    Disables sorting.
+
+The benefit of the -a flag is obvious: it allows us to see hidden files. As a
+consequence, we can also see the special '.' and '..' directories when using
+this flag.
+
+The -C flag is useful when you want multi-column output when not in a terminal.
+For example, it was very useful for debugging in an IDE.
