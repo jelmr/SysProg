@@ -1,0 +1,9 @@
+Usage: mytftpd [ADDR] [PORT]
+
+Starts serving the current directory over TFTP.
+
+If ADDR is specified, binds to that address only.
+If both ADDR and PORT are specified, binds to the specified port.
+
+RFC 2347 is supported to allow option negotiation. Currently, the only
+supported option is 'blksize', as specified in RFC 2348.
